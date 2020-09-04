@@ -9,6 +9,7 @@
   flex-direction: column;
   gap: 10px;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 /* @media (max-width: 800px) {

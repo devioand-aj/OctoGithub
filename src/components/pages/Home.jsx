@@ -126,10 +126,7 @@ const Home = () => {
         )}
       </div>
 
-      {/* <div className="gutter"></div> */}
-
       <div className="chart-section">
-        {/* <h1 className="label-repo">Statistics</h1> */}
         <div className="charts">
           <div className="chart">
             <Chart
@@ -150,7 +147,6 @@ const Home = () => {
             />
           </div>
         </div>
-        {/* <BarChart /> */}
       </div>
 
       <div className="gutter"></div>

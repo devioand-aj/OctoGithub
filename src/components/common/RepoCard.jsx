@@ -20,6 +20,7 @@ const RepoCard = forwardRef(({ repo }, ref) => {
     stargazers_count: stars,
     forks_count: forks,
     size,
+    html_url,
   } = repo;
 
   useEffect(() => {
@@ -29,7 +30,11 @@ const RepoCard = forwardRef(({ repo }, ref) => {
   }, [langStats]);
 
   return (
-    <div className="main-repoCard" ref={ref}>
+    <div
+      className="main-repoCard"
+      ref={ref}
+      onClick={() => window.open(html_url)}
+    >
       <h1 className="title">{title}</h1>
       <div className="description">{description}</div>
       <div className="detailsContainer">
