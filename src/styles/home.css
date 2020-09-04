@@ -1,0 +1,126 @@
+.home-page {
+  background-color: rgb(246, 248, 250);
+}
+
+.home-page .detail-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 18px;
+  color: rgb(200, 225, 255);
+}
+
+.home-page .detail-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-page .detail-container .icon {
+  /* background-color: forestgreen; */
+  justify-items: center;
+  display: flex;
+}
+
+.home-page .header {
+  padding: 50px 0 110px 0;
+  width: 100%;
+  background-color: #1f2329;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.home-page .paper-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page .link {
+  cursor: pointer;
+}
+
+.home-page .link:hover {
+  text-decoration: underline;
+}
+
+.home-page .chart-section {
+  /* width: 70%; */
+  min-width: 70%;
+  /* width: 1200px; */
+  /* width: 80%; */
+  /* background-color: lightgray; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+}
+
+.home-page .label {
+  margin-left: -5px;
+}
+
+.home-page .charts {
+  /* background-color: yellow; */
+  margin: 15px;
+  margin-top: -100px;
+  /* width: 100%; */
+  /* width: 600px; */
+  width: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); */
+  /* gap: 200px; */
+  justify-content: center;
+  /* justify-self: center; */
+}
+
+.chart {
+  /* background-color: pink; */
+  width: 500px;
+}
+
+.home-page .gutter {
+  padding: 40px;
+}
+
+.home-page .repos-section {
+  padding: 50px;
+}
+
+.label-repo {
+  font-size: 2rem;
+  border-bottom: 2px dashed lightgray;
+  /* padding-bottom: 5px; */
+  text-align: left;
+  width: max-content;
+  /* margin-bottom: 20px; */
+  margin-left: 25px;
+}
+
+.repos-section-header {
+  height: 70px;
+  /* background-color: red; */
+  z-index: 1;
+  position: relative;
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}

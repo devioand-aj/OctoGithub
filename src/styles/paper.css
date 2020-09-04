@@ -1,0 +1,22 @@
+.paper {
+  background-color: rgb(48, 54, 59);
+  text-align: center;
+  padding: 10px 0;
+  width: 160px;
+  /* max-width: 180px; */
+  border-radius: 5px;
+}
+
+.paper .title {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.paper .subtitle {
+  font-size: 0.9rem;
+  color: rgba(200, 225, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}

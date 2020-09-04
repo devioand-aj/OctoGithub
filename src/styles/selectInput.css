@@ -1,0 +1,68 @@
+/* #eee */
+
+.select-input {
+  /* height: 0; */
+  display: none;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  width: max-content;
+  flex-direction: row;
+  gap: 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 118, 255, 0.1);
+  outline: none;
+  cursor: pointer;
+  color: rgb(0, 112, 243);
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+.select-input:hover {
+  background-color: rgba(0, 118, 255, 0.1);
+}
+
+.select-input-icon {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.select-input-option-container {
+  background-color: rgb(0, 112, 243);
+
+  text-align: center;
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 118, 255, 0.1);
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  color: rgb(0, 112, 243);
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+.select-input-item {
+  padding: 10px;
+  color: white;
+  /* background-color: red; */
+}
+
+.select-input-item:hover {
+  background-color: rgba(145, 191, 243, 0.459);
+}
