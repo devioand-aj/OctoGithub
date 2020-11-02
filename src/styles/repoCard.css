@@ -1,15 +1,16 @@
 .main-repoCard {
   background-color: #fff;
   width: 90%;
-  /* max-width: 400px; */
-  /* min-width: 500px; */
-  /* height: 200px; */
   padding: 22px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  /* gap: 10px; */
   margin: 10px 0;
   cursor: pointer;
+}
+
+.main-repoCard > *:not(:first-child) {
+  margin: 5px 0;
 }
 
 /* @media (max-width: 800px) {
@@ -39,49 +40,46 @@
 }
 
 .main-repoCard .description {
-  /* background-color: purple; */
-  /* padding-top: 10px; */
-  /* font-family: Courier, monospace; */
   text-align: justify;
   letter-spacing: 1px;
   height: 60%;
 }
 
 .main-repoCard .detailsContainer {
-  /* background-color: #fff; */
   width: 100%;
   height: 20%;
   color: #eee;
   display: flex;
   font-size: 15px;
   align-items: center;
-  gap: 12px;
+  /* gap: 12px; */
   justify-content: space-between;
+}
+.main-repoCard .detailsContainer > *:not(:first-child) {
+  margin: 0 5px;
 }
 
 .main-repoCard .ratings {
-  /* background-color: red; */
   display: flex;
-  gap: 8px;
+  /* gap: 8px; */
+}
+.main-repoCard .ratings > *:not(:first-child) {
+  margin: 0 3px;
 }
 
 .main-repoCard .size-container {
-  /* background-color: pink; */
   color: black;
   justify-items: self-end;
 }
 
 .main-repoCard .icon-label-container {
-  /* background-color: royalblue; */
   display: flex;
-  /* font-weight: 600; */
-  gap: 7px;
-  /* justify-content: left; */
-  /* overflow: hidden; */
+}
+.main-repoCard .icon-label-container > *:not(:first-child) {
+  margin: 0 3px;
 }
 
 .main-repoCard .icon {
-  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
