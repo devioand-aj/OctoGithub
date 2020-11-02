@@ -12,7 +12,7 @@
   color: rgb(200, 225, 255);
 }
 .home-page .detail-container > * {
-  margin: 0 15px;
+  margin: 5px 15px;
 }
 
 .home-page .detail-item {
@@ -44,7 +44,6 @@
 }
 
 .home-page .paper-container {
-  /* background-color: red; */
   display: flex;
   flex-direction: row;
   /* gap: 10px; */
@@ -56,7 +55,7 @@
   align-items: center;
 }
 .home-page .paper-container > * {
-  margin: 0 5px;
+  margin: 6px;
 }
 
 .home-page .link {
